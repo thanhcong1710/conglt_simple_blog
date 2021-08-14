@@ -1,0 +1,68 @@
+// Here you can add other styles
+
+/*
+.card-header > .c-icon:first-child {
+  margin-right: 0.1rem;
+  margin-top: 0.1rem;
+  vertical-align: top;
+  width: 1.2rem;
+  height: 1.2rem;
+  font-size: 1.2rem;
+}
+*/
+
+.card-header:not(.content-center) > .c-icon:first-child {
+  margin-right: 0.1rem;
+  margin-top: 0.1rem;
+  vertical-align: top;
+  width: 1.2rem;
+  height: 1.2rem;
+  font-size: 1.2rem;
+}
+
+.click-file{
+  cursor:pointer;
+}
+
+#cropp-img-img{
+  max-width:500px;
+  max-height:500px;
+}
+.no-padding {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+.no-margin {
+  margin-right: 0px;
+  margin-left: 0px;
+}
+.mx-datepicker.form-control.calendar{
+  padding: 0px;
+  border: none;
+  width: 100%;
+}
+.dropdown.single.searchable span.selected-tag {
+  overflow: hidden;
+}
+.dropdown.single.searchable input.form-control {
+  position: absolute;
+  overflow: hidden;
+  left: 0;
+}
+.vs__selected-options{
+  height:30px;
+}
+.dropdown.single.searchable input.form-control{
+  width: 100%;
+}
+.dropdown.single.searchable span.selected-tag {
+  overflow: initial;
+}
+.v-select .dropdown-toggle,select.form-control {
+  border: 0.5px solid #bbd5e8!important;
+  border-radius: 0 1px 1px 0!important;
+  height: 35px!important;
+}
+.form-control{
+  color :#333;
+}
